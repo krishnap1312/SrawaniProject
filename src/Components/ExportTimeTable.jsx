@@ -117,199 +117,247 @@ const ExportTimeTable = () => {
     const OnChangeOMonday = () =>{
         const value = prompt("Enter Period")
         setoMonday({onePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTMonday = () =>{
         const value = prompt("Enter Period")
         settMonday({twoPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTHMonday = () =>{
         const value = prompt("Enter Period")
         setthMonday({threePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFMonday = () =>{
         const value = prompt("Enter Period")
         setfMonday({fourPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFIMonday = () =>{
         const value = prompt("Enter Period")
         setfiMonday({fivePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSMonday = () =>{
         const value = prompt("Enter Period")
         setsMonday({sixPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSeMonday = () =>{
         const value = prompt("Enter Period")
         setseMonday({sevenPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeEMonday = () =>{
         const value = prompt("Enter Period")
         seteMonday({eightPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     
     const OnChangeOTuesday = () =>{
         const value = prompt("Enter Period")
         setoTuesday({onePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTTuesday = () =>{
         const value = prompt("Enter Period")
         settTuesday({twoPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTHTuesday = () =>{
         const value = prompt("Enter Period")
         setthTuesday({threePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFTuesday = () =>{
         const value = prompt("Enter Period")
         setfTuesday({fourPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFITuesday = () =>{
         const value = prompt("Enter Period")
         setfiTuesday({fivePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSTuesday = () =>{
         const value = prompt("Enter Period")
         setsTuesday({sixPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSeTuesday = () =>{
         const value = prompt("Enter Period")
         setseTuesday({sevenPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeETuesday = () =>{
         const value = prompt("Enter Period")
         seteTuesday({eightPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
 
     const OnChangeOWednesday = () =>{
         const value = prompt("Enter Period")
         setoWednesday({onePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTWednesday = () =>{
         const value = prompt("Enter Period")
         settWednesday({twoPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTHWednesday = () =>{
         const value = prompt("Enter Period")
         setthWednesday({threePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFWednesday = () =>{
         const value = prompt("Enter Period")
         setfWednesday({fourPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFIWednesday = () =>{
         const value = prompt("Enter Period")
         setfiWednesday({fivePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSWednesday = () =>{
         const value = prompt("Enter Period")
         setsWednesday({sixPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSeWednesday = () =>{
         const value = prompt("Enter Period")
         setseWednesday({sevenPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeEWednesday = () =>{
         const value = prompt("Enter Period")
         seteWednesday({eightPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
 
     const OnChangeOThursday = () =>{
         const value = prompt("Enter Period")
         setoThursday({onePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTThursday = () =>{
         const value = prompt("Enter Period")
         settThursday({twoPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTHThursday = () =>{
         const value = prompt("Enter Period")
         setthThursday({threePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFThursday = () =>{
         const value = prompt("Enter Period")
         setfThursday({fourPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFIThursday = () =>{
         const value = prompt("Enter Period")
         setfiThursday({fivePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSThursday = () =>{
         const value = prompt("Enter Period")
         setsThursday({sixPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSeThursday = () =>{
         const value = prompt("Enter Period")
         setseThursday({sevenPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeEThursday = () =>{
         const value = prompt("Enter Period")
         seteThursday({eightPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
 
     const OnChangeOFriday = () =>{
         const value = prompt("Enter Period")
         setoFriday({onePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTFriday = () =>{
         const value = prompt("Enter Period")
         settFriday({twoPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTHFriday = () =>{
         const value = prompt("Enter Period")
         setthFriday({threePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFFriday = () =>{
         const value = prompt("Enter Period")
         setfFriday({fourPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFIFriday = () =>{
         const value = prompt("Enter Period")
         setfiFriday({fivePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSFriday = () =>{
         const value = prompt("Enter Period")
         setsFriday({sixPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSeFriday = () =>{
         const value = prompt("Enter Period")
         setseFriday({sevenPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeEFriday = () =>{
         const value = prompt("Enter Period")
         seteFriday({eightPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
 
     const OnChangeOSaturday = () =>{
         const value = prompt("Enter Period")
         setoSaturday({onePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTSaturday = () =>{
         const value = prompt("Enter Period")
         settSaturday({twoPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeTHSaturday = () =>{
         const value = prompt("Enter Period")
         setthSaturday({threePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFSaturday = () =>{
         const value = prompt("Enter Period")
         setfSaturday({fourPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeFISaturday = () =>{
         const value = prompt("Enter Period")
         setfiSaturday({fivePeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSSaturday = () =>{
         const value = prompt("Enter Period")
         setsSaturday({sixPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeSeSaturday = () =>{
         const value = prompt("Enter Period")
         setseSaturday({sevenPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
     const OnChangeESaturday = () =>{
         const value = prompt("Enter Period")
         seteSaturday({eightPeriod : value})
+        alert("Subject and Teacher Added Successfully")
     }
 
 

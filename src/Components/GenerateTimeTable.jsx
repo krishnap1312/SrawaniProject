@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./navcolor.css"
 const GenerateTimeTable = () => {
-
+    const [StyleClass, setStyleClass] = useState({display: "none"})
     const [GenerateTT, SetGenerateTT] = useState({
         courseName : "" ,
         courseCode : "" ,
@@ -36,6 +36,15 @@ const GenerateTimeTable = () => {
 
     const OnSubmitHandle = (event) =>{
         event.preventDefault();
+        alert(`
+        courseName : ${GenerateTT.courseName}\n
+        courseCode : ${GenerateTT.courseCode}\n
+        semester : ${GenerateTT.semester}\n
+        subject1 : ${GenerateTT.subject1}\n
+        subject2 : ${GenerateTT.subject2}\n
+        subject3 : ${GenerateTT.subject3}\n
+        subject4 : ${GenerateTT.subject4}\n
+        `)
         ModalSetGenerateTT({
             ModalcourseName : GenerateTT.courseName,
             ModalcourseCode : GenerateTT.courseCode,
@@ -45,6 +54,7 @@ const GenerateTimeTable = () => {
             Modalsubject3 : GenerateTT.subject3,
             Modalsubject4 : GenerateTT.subject4,
         })
+        setStyleClass({display: ""})
     }
 
     return (
@@ -78,9 +88,16 @@ const GenerateTimeTable = () => {
                 <img src="Ongeneratetimetablerightside.jpg" className="m-4" width={400} alt="img" />
 
             </div>
-            <ol>
-                <li>{ModalGenerateTT.ModalcourseCode}</li>
-            </ol>
+            <div className="container-fluid bg-light w-50 text-center" style={StyleClass}>
+                    <h3>Course Code : {GenerateTT.courseCode}</h3>
+                    <h3>Course : {GenerateTT.courseName}</h3>
+                    <h3>semester : {GenerateTT.semester}</h3>
+                    <h3>subject : {GenerateTT.subject1}</h3>
+                    <h3>subject : {GenerateTT.subject2}</h3>
+                    <h3>subject : {GenerateTT.subject3}</h3>
+                    <h3>subject : {GenerateTT.subject4}</h3>
+                    
+            </div>
             <address className="d-flex justify-content-between m-5 pt-5">
                 <div>
                     <h4>Project Done By BSC CS 4th Sem Students:</h4>

@@ -1,8 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navcolor.css"
 
 const AddCourse = () => {
+    const [StyleClass, setStyleClass] = useState({display: "none"})
+    const [Details, setDetails] = useState({
+        course : "",
+        teacher : "",
+    })
+
+    const onchangehandle = (event) =>{
+        const {name,value} = event.target
+        setDetails((preval)=>{
+            return{
+                ...preval,
+                [name] : value
+            }
+        })
+    }
+
+    const onClickSubmitHandle = (event) =>{
+        event.preventDefault();
+        alert(`Course Name : ${Details.course}\n Course Teacher : ${Details.teacher}`)
+        setStyleClass({display: ""})
+    }
 
     return (
         <div>
@@ -24,7 +45,7 @@ const AddCourse = () => {
             <div className=" justify-content-center text-center ">
             <img src="/OnaddCourseleftside.jpg" width={400} alt="" />
                 <div>
-                <select className="fs-3 fw-bolder m-3">
+                <select className="fs-3 fw-bolder m-3" name="course" onChange={onchangehandle}>
                     <option value="Course">Select Course</option>
                     <option value="BSC CS">BSC CS</option>
                     <option value="BCA">BCA</option>
@@ -36,7 +57,7 @@ const AddCourse = () => {
                 </div>
                 <div>
                 
-                <select className="fs-3 fw-bolder m-3">
+                <select className="fs-3 fw-bolder m-3" name="teacher" onChange={onchangehandle}>
                     <option value="Semester">Select Teacher Name</option>
                     <option value="Dr Asha Ambhikar">Dr Asha Ambhikar</option>
                     <option value="Akanksha Mishra">Akanksha Mishra</option>
@@ -49,7 +70,13 @@ const AddCourse = () => {
                     <option value="Kirti Nahak">Kirti Nahak</option>
                 </select>
                 </div>
-            <button className="btn btn-success fs-4">Submit</button>
+            <button className="btn btn-success fs-4" onClick={onClickSubmitHandle}>Submit</button>
+            </div>
+
+            <div className="container-fluid bg-light w-50 text-center" style={StyleClass}>
+                    <h3>Teacher Name : {Details.teacher}</h3>
+                    <h3>Course : {Details.course}</h3>
+                    
             </div>
 
             <address className="d-flex justify-content-between m-5 pt-5">
